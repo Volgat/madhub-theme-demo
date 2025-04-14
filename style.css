@@ -1,0 +1,118 @@
+/*
+Theme Name: MadHub Digital Solutions
+Theme URI: https://madhub.com/theme
+Author: Your Name
+Author URI: https://volgat.github.io
+Description: A custom WordPress theme for MadHub Digital Solutions, showcasing web development and e-commerce expertise.
+Version: 1.0
+
+Text Domain: madhub
+Tags: responsive, business, e-commerce, portfolio
+*/
+
+/* 
+ *just for a test about my interview
+ */
+
+/* Styles de base */
+:root {
+  --madhub-primary: #4a90e2;
+  --madhub-secondary: #333333;
+  --madhub-accent: #27ae60;
+  --madhub-light: #f8f9fa;
+  --madhub-dark: #1e2022;
+  --madhub-gray: #6c757d;
+  --madhub-border: #e1e4e8;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--madhub-dark);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--madhub-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #3a7bc8;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Utilitaires généraux qui peuvent être appliqués globalement */
+.text-center {
+  text-align: center;
+}
+
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+.mb-4 { margin-bottom: 2rem; }
+.mb-5 { margin-bottom: 3rem; }
+
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+.mt-4 { margin-top: 2rem; }
+.mt-5 { margin-top: 3rem; }
+
+.py-1 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.py-2 { padding-top: 1rem; padding-bottom: 1rem; }
+.py-3 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.py-4 { padding-top: 2rem; padding-bottom: 2rem; }
+.py-5 { padding-top: 3rem; padding-bottom: 3rem; }
+
+.px-1 { padding-left: 0.5rem; padding-right: 0.5rem; }
+.px-2 { padding-left: 1rem; padding-right: 1rem; }
+.px-3 { padding-left: 1.5rem; padding-right: 1.5rem; }
+.px-4 { padding-left: 2rem; padding-right: 2rem; }
+.px-5 { padding-left: 3rem; padding-right: 3rem; }
+
+/* Boutons */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: var(--madhub-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #3a7bc8;
+  color: white;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--madhub-primary);
+  border: 2px solid var(--madhub-primary);
+}
+
+.btn-outline:hover {
+  background-color: var(--madhub-primary);
+  color: white;
+}
